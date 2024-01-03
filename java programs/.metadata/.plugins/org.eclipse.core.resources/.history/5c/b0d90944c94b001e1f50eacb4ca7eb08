@@ -1,0 +1,17 @@
+package javascanner;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		int male =21;
+		int female=17;
+		if(male==21) {
+			System.out.println("me");
+		}else if(female==18) {
+			System.out.println("fe");
+		}else {
+			System.out.println("not");
+		}
+	}
+
+}

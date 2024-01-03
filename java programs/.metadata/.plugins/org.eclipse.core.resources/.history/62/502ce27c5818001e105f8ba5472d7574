@@ -1,0 +1,10 @@
+package com.java.src;
+
+public class FileReader {
+
+	public static void main(String[] args) {
+		FileReader f = new FileReader("C:\\Users\\Bablu\\Desktop\\santosh java\\abc5.txt");
+		f.
+	}
+
+}

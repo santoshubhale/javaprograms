@@ -1,0 +1,26 @@
+package com.sgtesting.assignmentday35filehandling;
+
+import java.io.File;
+
+class RecusionDemo{
+	void sample() {
+		File f = new File("C:\\Users\\Bablu\\Desktop\\Test1Demo");
+		File [] f1=f.listFiles();
+		for(int i=0; i<f1.length; i++) {
+			if(f1[i].isFile()==true) {
+				System.out.println(f1[i].getPath());
+			}
+		}
+		sample();
+	}
+}
+
+public class Q5 {
+
+	public static void main(String[] args) {
+		RecusionDemo rd = new RecusionDemo();
+		rd.sample();
+
+	}
+
+}

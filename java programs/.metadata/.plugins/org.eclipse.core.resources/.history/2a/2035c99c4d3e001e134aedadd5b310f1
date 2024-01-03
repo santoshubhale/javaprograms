@@ -1,0 +1,14 @@
+package com.sgtesting.src;
+
+public class Practice {
+		public static void main(String[] args) {
+			int i=0;
+			do {
+				System.out.print(" "+(char)(i+97));
+				i++;
+			}while(i<26);
+			
+		}
+	}
+
+

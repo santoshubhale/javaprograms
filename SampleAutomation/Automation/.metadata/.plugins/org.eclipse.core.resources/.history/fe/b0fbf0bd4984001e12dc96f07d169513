@@ -1,0 +1,28 @@
+package com.methods;
+
+class Cdf {
+	int dis(String name) throws Exception {
+		if (name == null) {
+			throw new Exception("Invalid name please provide valid name");
+		}
+
+		return name.length();
+	}
+
+}
+
+public class Practice {
+
+	public static void main(String[] args) {
+		try {
+		Cdf c = new Cdf();
+		int s = c.dis("Bhagya");
+		System.out.println(s + "name is super");
+		int s1 = c.dis(null);
+		System.out.println(s1 + " name is super");
+		}catch(Exception bb) {
+			bb.printStackTrace();
+		//	System.out.println(bb.getMessage());
+		}
+	}
+}

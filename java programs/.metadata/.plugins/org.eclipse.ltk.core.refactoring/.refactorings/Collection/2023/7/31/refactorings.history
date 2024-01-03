@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.javacollection.src.Deque.java&apos; to &apos;DequePrgm.java&apos;&#x0D;&#x0A;- Original project: &apos;Collection&apos;&#x0D;&#x0A;- Original element: &apos;com.javacollection.src.Deque.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.javacollection.src.DequePrgm.java&apos;" description="Rename compilation unit &apos;Deque.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.javacollection.src{Deque.java" name="DequePrgm.java" references="false" stamp="1690748253413" version="1.0"/>
+</session>

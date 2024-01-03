@@ -1,0 +1,16 @@
+package com.sgtesting.assignmentday10_1;
+
+public class Ques1 {
+
+	public static void main(String[] args) {
+		int count=0;
+		for(int i=100; i>=50;i--) {
+			if(i%4==0) {
+				count++;
+			}
+			System.out.println(count);
+		}
+
+	}
+
+}

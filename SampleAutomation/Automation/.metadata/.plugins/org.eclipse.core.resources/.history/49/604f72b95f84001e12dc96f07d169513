@@ -1,0 +1,16 @@
+package com.finalkey;
+class Demo{
+	final void show() {
+		System.out.println("I am final method");
+	}
+}
+
+public class FinalMethod {
+
+	public static void main(String[] args) {
+		Demo d = new Demo();
+		d.show();
+
+	}
+
+}

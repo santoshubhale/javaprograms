@@ -1,0 +1,23 @@
+package com.java.src;
+
+public class MethodOverlodingprgm {
+
+	int add(int a, int b) {
+		return a + b;
+	}
+
+	int add(int a, int b, int c) {
+
+		return a + b + c;
+
+	}
+}
+class Methodtest{
+	
+	public static void main(String[] args) {
+		
+		MethodOverloding mo
+
+	}
+
+}

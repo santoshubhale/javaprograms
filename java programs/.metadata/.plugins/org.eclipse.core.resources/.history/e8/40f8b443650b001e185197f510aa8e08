@@ -1,0 +1,11 @@
+package com.java.src;
+
+public class ArraysInString {
+
+	public static void main(String[] args) {
+		String[] s = {"santosh" , "suhas" , "darshan"};
+		System.out.println(s[1]);
+
+	}
+
+}

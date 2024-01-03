@@ -1,0 +1,11 @@
+package com.java.src;
+
+public class Alphabets {
+
+	public static void main(String[] args) {
+		char(ch='a';ch<='z';(char)ch+1){
+		System.out.println(ch);
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.sgtesting.src;
+
+public class CMDArguments {
+
+	public static void main(String[] args) {
+		
+		double num1 = 12.9;
+		double num2 = 10.5;
+		
+		double result= num1+num2;
+		System.out.println("value "+result);
+
+	}
+
+}

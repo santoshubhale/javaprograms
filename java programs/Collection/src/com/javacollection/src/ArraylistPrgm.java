@@ -1,0 +1,19 @@
+package com.javacollection.src;
+
+import java.util.*;
+
+public class ArraylistPrgm {
+
+	public static void main(String[] args) {
+		ArrayList<String> al = new ArrayList<String>();
+		al.add("Santosh");
+		al.add("Suhas");
+		al.add("Darshan");
+	System.out.println(al);
+		Iterator itr = al.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+	}
+
+}

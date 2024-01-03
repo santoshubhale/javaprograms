@@ -1,0 +1,21 @@
+package com.java.src;
+
+public class Constructor extends Constructor1 {
+	public int i;
+	public String name;
+	public long mobileno;
+
+	public Constructor(int i, String n, long m) {
+		this.i = i;
+		name = n;
+		mobileno = m;
+		System.out.println("hi i am Constructor");
+	}
+
+	public void display() {
+		System.out.println(name);
+		System.out.println(mobileno);
+		System.out.println(i);
+	}
+
+}

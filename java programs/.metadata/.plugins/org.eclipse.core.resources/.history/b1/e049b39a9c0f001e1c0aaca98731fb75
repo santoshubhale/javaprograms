@@ -1,0 +1,19 @@
+package com.java.src;
+
+public class Practice {
+
+	String name;
+	int age;
+	public Practice(String n , int a) {
+		name =n;
+		age=a;
+	}
+	public static void main(String[] args) {
+		Practice p = new Practice("santosh", 20);
+		String s =p.name;
+		int a=p.age;
+		System.out.println(s);
+		
+	}
+
+}

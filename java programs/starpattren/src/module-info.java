@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Bablu
+ *
+ */
+module starpattren {
+}

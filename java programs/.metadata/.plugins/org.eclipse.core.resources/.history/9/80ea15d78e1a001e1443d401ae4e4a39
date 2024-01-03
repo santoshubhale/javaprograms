@@ -1,0 +1,13 @@
+package com.java.src;
+
+import java.util.HashSet;
+
+public class Practice {
+	    
+	public static void main(String[] args) {
+		HashSet<String>hs = new HashSet<String>();
+		hs.add("java");
+		hs.add("Java");
+		hs.add("JAVA");System.out.println(hs);
+	}
+		}  

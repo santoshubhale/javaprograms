@@ -1,0 +1,10 @@
+package com.sgtesting.src;
+
+public class DecrementPrgm {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

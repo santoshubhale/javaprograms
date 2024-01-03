@@ -1,0 +1,17 @@
+
+public class SeleniumInroduction {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Bablu\\Desktop\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjc3NjkzOTE5LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D");
+		driver.findElement(By.id("email")).sendKeys("8880077714");
+		driver.findElement(By.id("pass")).sendKeys("Facebook@2902");
+		driver.findElement((By.id("loginbutton"))).click(); 
+		driver.findElement(By.linkText("Log in with password")).click();
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Facebook@2903");
+		//driver.findElement(By.xpath("//div/input[1]")).sendKeys("Facebook@2903"); // Not working (Xpath using tags from parents tag to child tag)
+		
+	}
+
+}

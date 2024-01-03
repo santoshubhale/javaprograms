@@ -1,0 +1,15 @@
+package com.sgtesting.src;
+
+public class Practice {
+		 int a =50;
+		 int b =20;
+	public static void main(String[] args) {
+		short a = 10;
+		int b= 40;
+		
+		Practice p = new Practice();
+		int x = p.a;
+		System.out.println(x);
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.sgtesting.assignmentday35filehandling;
+
+class Demo {
+
+	static void show(int num) {
+		int count = 0;
+		for (int i = 0; i <= num; count++) {
+			count=count+1;
+		}
+		System.out.println(count);
+	}
+}
+
+public class Q2 {
+
+	public static void main(String[] args) {
+		Demo.show(7);
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.java.src;
+
+public class Practice {
+	private int amount = 20000;
+
+	public void setMoney() {
+		this.amount = amount;
+
+	}
+
+	public int amount() {
+
+		return amount;
+	}
+
+	public static void main(String[] args) {
+		Practice p = new Practice();
+		int a =p.amount();
+		System.out.println(a);
+		
+	}
+
+}

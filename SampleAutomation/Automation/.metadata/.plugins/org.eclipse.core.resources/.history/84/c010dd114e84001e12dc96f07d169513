@@ -1,0 +1,12 @@
+package com.main;
+
+import com.p1.Protection;
+
+public class MainProgram {
+
+	public static void main(String[] args) {
+		Protection p = new Protection();
+
+	}
+
+}

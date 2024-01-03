@@ -1,0 +1,10 @@
+package com.sgtesting.noargsconstructor;
+
+public class Ques3inConstructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

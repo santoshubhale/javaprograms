@@ -1,0 +1,22 @@
+package javascanner;
+
+import java.util.Scanner;
+
+public class LengthAndBreadth {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a length value");
+		int length = scan.nextInt();
+		System.out.println("Enter a breadth value");
+		int breadth = scan.nextInt();
+		
+		if(length!=breadth) {
+			System.out.println("Rectangle");
+		}else {
+			System.out.println("Square");
+		}
+
+	}
+
+}

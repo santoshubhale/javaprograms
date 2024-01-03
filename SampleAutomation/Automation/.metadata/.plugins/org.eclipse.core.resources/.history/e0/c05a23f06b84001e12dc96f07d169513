@@ -1,0 +1,20 @@
+package com.sgtesting.assignmentday35filehandling;
+
+import java.io.File;
+
+public class Q4 {
+
+	public static void main(String[] args) {
+
+	}
+	static void display() {
+		File f = new File("C:\\Users\\Bablu\\Desktop\\Test");
+		File[] ff = f.listFiles();
+		for(int i=0; i<ff.length; i++) {
+			if(ff[i].isDirectory()==true) {
+			System.out.println(ff[i].getAbsolutePath());
+			}
+		}
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.sgtesting.assignmentday35filehandling;
+
+import java.io.File;
+
+public class Q4 {
+
+	public static void main(String[] args) {
+		Q4.display();
+	}
+	static void display() {
+		File f = new File("C:\\Users\\Bablu\\Desktop\\Test");
+		File[] ff = f.listFiles();
+		for(int i=0; i<ff.length; i++) {
+//			if(ff[i].isFile()==true) {
+//			System.out.println(ff[i].getPath());
+//			if (ff[i].getName().endsWith(".xlsx")) {
+//				System.out.println(ff[i].getPath());
+//			}
+			if (ff[i].getName().endsWith(".txt")) {
+				System.out.println(ff[i].getPath());
+			}
+			}
+		}
+	}
+
+

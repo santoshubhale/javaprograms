@@ -1,0 +1,30 @@
+package MethodArraysCombined;
+
+public class Fibonacci {
+
+	static String name;
+	static int age;
+
+	public static void method1() {
+		System.out.println("Method method1()");
+	}
+	{
+		System.out.println("hiiiiiiiiiiiiiiiiiiiiiiii");
+	}
+	static {
+		System.out.println("Static block2");
+	}
+	static {
+		System.out.println("Static block1");
+	}
+
+	public static void main(String[] args) {
+		
+		Fibonacci o=new Fibonacci();
+		name = "Kalam";
+		age = 71;
+		System.out.println("Name is: " + name + " & age is: " + age);
+		method1();
+	}
+
+}

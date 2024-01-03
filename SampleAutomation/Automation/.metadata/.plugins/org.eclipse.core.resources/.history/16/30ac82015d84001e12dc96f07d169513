@@ -1,0 +1,17 @@
+package com.methods;
+
+public class Practice {
+
+	public static void main(String[] args)  {
+		try {
+			
+			String s ="santoshh"+ null;
+			
+			System.out.println(s);
+		} catch (RuntimeException e) {
+			e.printStackTrace();
+			System.out.println(e.getMessage());
+		}
+	}
+	
+}

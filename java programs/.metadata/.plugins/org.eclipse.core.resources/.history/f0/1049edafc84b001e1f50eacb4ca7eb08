@@ -1,0 +1,16 @@
+package javascanner;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		int male = 21;
+		int female = 10;
+
+		if ((male == 21) || (female == 18)) {
+			System.out.println("eligible");
+		} else {
+			System.out.println("not");
+		}
+	}
+
+}

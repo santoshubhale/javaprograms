@@ -1,0 +1,14 @@
+package com.java.src;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+
+public class Practice {
+	    
+	public static void main(String[] args) {
+		LinkedHashSet<String>hs = new LinkedHashSet<String>();
+		hs.add("java");
+		hs.add("Java");
+		hs.add("JAVA");System.out.println(hs);
+	}
+		}  

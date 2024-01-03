@@ -1,0 +1,14 @@
+package com.sgtesting.src;
+
+public class CMDArguments {
+
+	public static void main(String[] args) {
+		System.out.println("hi ashok");
+		int num1 = Integer.parseInt(args[0]);
+		int num2 = Integer.parseInt(args[1]);
+		int result= num1+num2;
+		System.out.println("value "+result);
+
+	}
+
+}

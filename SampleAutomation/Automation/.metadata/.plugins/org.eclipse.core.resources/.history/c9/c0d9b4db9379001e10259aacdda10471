@@ -1,0 +1,35 @@
+package com.sgtesting.assinmentday25;
+interface A{
+	static void display() {
+		System.out.println("I am A's interface");
+	}
+}
+interface B extends A{
+	static void show() {
+		System.out.println("I am B's interface ");
+	}
+}
+interface C extends B{
+	static void demo() {
+		System.out.println("I am c's interface ");
+	}
+}
+class Sample implements C{
+	void sam() {
+		System.out.println("I am class method");
+	}
+}
+
+public class Q3OneInterfaceExtendsAnotherinMultilevel {
+
+	public static void main(String[] args) {
+		Sample s = new Sample();
+		A.display();
+		B.show();
+		C.demo();
+		s.sam();
+		
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.methods;
+
+class Zxc {
+
+	void showPra() {
+		System.out.println("zxc 1");
+	}
+}
+class Zxcv{
+	void showPra() {
+		System.out.println(" zxcv 2");
+	}
+}
+public class Practice {
+
+	public static void main(String[] args) {
+		Zxc z = new Zxc();
+		z.showPra();
+		Zxcv z1 = new Zxcv();
+		z1.showPra();
+	}
+}

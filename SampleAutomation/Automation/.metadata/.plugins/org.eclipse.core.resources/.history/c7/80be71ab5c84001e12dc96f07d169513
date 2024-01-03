@@ -1,0 +1,13 @@
+package com.methods;
+
+public class Practice {
+
+	public static void main(String[] args) throws Exception {
+		try {
+			String s = null;
+		} catch (RuntimeException e) {
+			
+			System.out.println(e.getMessage());
+		}
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.java.src.ExceptionHandling&apos; to &apos;ArithmeticExceptionHandling&apos;&#x0D;&#x0A;- Original project: &apos;JavaProject&apos;&#x0D;&#x0A;- Original element: &apos;com.java.src.ExceptionHandling&apos;&#x0D;&#x0A;- Renamed element: &apos;com.java.src.ArithmeticExceptionHandling&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ExceptionHandling&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.java.src{ExceptionHandling.java[ExceptionHandling" matchStrategy="1" name="ArithmeticExceptionHandling" qualified="false" references="true" similarDeclarations="false" stamp="1687465933819" textual="false" version="1.0"/>
+</session>

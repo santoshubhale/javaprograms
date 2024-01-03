@@ -1,0 +1,13 @@
+package com.java.src;
+
+public class Constructor1 {
+
+	public static void main(String[] args) {
+		
+	//	Constructor c = new Constructor(10, "santosh", 989878767);
+		System.out.println(c.i);
+		System.out.println(c.name);
+		System.out.println(c.mobileno);
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.java.src;
+
+public class HashMap {
+
+	public static void main(String[] args) {
+		HashMap<String ,String > hm = new HashMap();
+		hm.put("santosh@gmai.com","abc");
+		System.out.println(hm);
+
+	}
+
+}

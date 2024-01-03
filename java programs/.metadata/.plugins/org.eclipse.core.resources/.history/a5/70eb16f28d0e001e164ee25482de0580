@@ -1,0 +1,22 @@
+package com.java.src;
+
+public class Encapsulation {
+	
+	private long money = 100000000l;
+	
+	public long getMoney() {
+		return money;
+	}
+	public void setMoney(long m) {
+		this.money = m;
+	}
+
+	public static void main(String[] args) {
+		
+		Encapsulation e = new Encapsulation();
+		long a = e.money;
+	//	System.out.println(a);
+		long m =e. getMoney();
+	}
+
+}

@@ -1,0 +1,43 @@
+package com.java.src;
+
+import java.util.Scanner;
+
+public class SwitchCase {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a Character");
+		char c = scan.next().charAt(0);
+		System.out.println("Enter X value");
+		int x = scan.nextInt();
+		System.out.println("Enter Y value");
+		int y = scan.nextInt();
+
+		switch (c) {
+		case '+': {
+			int z = x + y;
+			System.out.println(z);
+		}
+		case '-':{
+			int z= x-y;
+			System.out.println(z);
+		}
+		case '*':{
+			int z= x*y;
+			System.out.println(z);
+		}
+		case '/':{
+			int z= x/y;
+			System.out.println(z);
+		}
+		case '%':{
+			int z= x%y;
+			System.out.println(z);
+		}
+		default:
+			System.out.println("error");
+		}
+
+	}
+
+}

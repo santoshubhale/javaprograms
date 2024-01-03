@@ -1,0 +1,15 @@
+package com.java.src;
+
+import java.util.Scanner;
+
+public class Practice {
+	void display() {
+		System.out.println("Abstract Method?");
+	}
+
+	public static void main(String[] args) {
+		myclass ac = new myclass();
+		ac.display();
+	}
+
+}

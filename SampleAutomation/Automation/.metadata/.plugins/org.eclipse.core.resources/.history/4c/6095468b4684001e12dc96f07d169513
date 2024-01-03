@@ -1,0 +1,32 @@
+package com.methods;
+
+class Cdf {
+	int santosh(int age) throws Exception {
+
+		if (age < 18) {
+			throw new Exception(age + "Age is not eligible for marriage");
+		}
+		return age;
+	}
+}
+
+public class Practice {
+
+	public static void main(String[] args) {
+		try {
+			Cdf c = new Cdf();
+			int bhagya = c.santosh(20);
+			System.out.println(bhagya + "eligible for marriage");
+			int bhagya1 = c.santosh(10);
+			System.out.println(bhagya1 + "eligible for marriage");
+
+		} catch (Exception e) {
+			//e.printStackTrace();
+			System.out.println(e.getMessage());
+		}
+		finally{
+		System.out.println("hi ... !!! i am bhagya useless");
+		}
+			
+	}
+}

@@ -1,0 +1,24 @@
+package com.java.src;
+
+public class Constructor {
+	public int i;
+	public String name;
+	public long mobileno;
+
+	public Constructor(int i, String n, long m) {
+		i = i;
+		name = n;
+		mobileno = m;
+		System.out.println("hi i am Constructor");
+	}
+
+	public class test {
+
+		public static void main(String[] args) {
+
+			Constructor c = new Constructor(10, "santosh", 989878767);
+
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+package com.sgtesting.src;
+
+public class CMDArguments {
+
+	public static void main(String[] args) {
+		
+		float num1 = 12.95;
+		float num2 = 10.59;
+		
+		float result= num1+num2;
+		System.out.println("value "+result);
+
+	}
+
+}

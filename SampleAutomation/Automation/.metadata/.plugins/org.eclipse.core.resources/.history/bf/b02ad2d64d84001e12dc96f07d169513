@@ -1,0 +1,10 @@
+package com.p1;
+
+public class Protection {
+
+	private int Private_a = 100;
+	protected int protected_b = 200;
+	int Default_c = 300;
+	public int public_d = 400;
+
+}
